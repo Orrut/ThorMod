@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "thormod:block/thor_block" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "item.thormod.thor_ingot": "Thor Ingot",
+  "item.thormod.raw_thor_ore": "Raw Thor Ore",
+
+  "block.thormod.thor_block": "Block of Thor Ingot",
+  "block.thormod.thor_ore": "Thor Ore",
+  "block.thormod.deepslate_thor_ore": "Deepslate Thor Ore",
+
+  "itemGroup.thor_tab": "Zircon Tutorial Tab"
+}

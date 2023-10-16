@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "thor_ingot",
+  "ingredient": {
+    "item": "thormod:raw_thor_ingot"
+  },
+  "result": "thormod:thor_ingot"
+}

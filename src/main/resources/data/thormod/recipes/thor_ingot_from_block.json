@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thormod:thor_block"
+    }
+  ],
+  "result": {
+    "item": "thormod:thor_ingot",
+    "count": 9
+  }
+}

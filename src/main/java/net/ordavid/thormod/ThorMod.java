@@ -1,6 +1,8 @@
 package net.ordavid.thormod;
 
 import com.mojang.logging.LogUtils;
+import net.ordavid.thormod.block.ModBlocks;
+import net.ordavid.thormod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,8 +24,13 @@ public class ThorMod
 
         modEventBus.addListener(this::commonSetup);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
+
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
